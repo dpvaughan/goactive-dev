@@ -34,6 +34,8 @@ class InboxController extends Controller
       $startDate = $schoolInfo->startdate;
       $endDate = date("Y-m-d");
 
+      #This is a test
+
       # Work out the week of the study form the start date and todays date
       $goactiveFunctions = new GoactiveFunctions();
       $week = $goactiveFunctions->GetWeek($startDate, $endDate);
